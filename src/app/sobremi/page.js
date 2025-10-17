@@ -13,18 +13,18 @@ export default function SobreMi() {
       </div>
 
       {/* Contenido: Imagen y cuadro de texto */}
-      <div className="max-w-6xl mx-auto flex flex-col lg:flex-row items-center lg:items-start gap-12 px-6">
+      <div className="max-w-6xl mx-auto flex flex-col lg:flex-row items-center lg:items-start gap-8 lg:gap-12sm:px-4">
         {/* Imagen */}
-        <div className="flex-shrink-0 lg:self-center">
+        <div className="flex-shrink-0 mb-6 lg:mb-0 lg:self-center">
           <img
             src="/fotoMay.jpg"
             alt="Mayra Limachi"
-            className="w-80 object-cover rounded-xl border-4 border-blue-500 mx-auto lg:mx-0"
+            className="w-64 sm:w-72 lg:w-80 object-cover rounded-xl border-4 border-blue-500 mx-auto lg:mx-0"
           />
         </div>
 
         {/* Cuadro de texto */}
-        <div className="flex-1 max-w-3xl w-full bg-gray-800/50 border border-white/20 p-4 sm:p-6 rounded-xl shadow-lg backdrop-blur-sm mx-2 sm:mx-auto">
+        <div className="flex-1 w-full max-w-full sm:max-w-2xl lg:max-w-3xl bg-gray-800/50 border border-white/20 p-4 sm:p-6 rounded-xl shadow-lg backdrop-blur-sm mx-2 sm:mx-auto">
           <h2 className="text-base sm:text-lg md:text-2xl font-semibold mb-3 sm:mb-4 text-blue-400">
             Sobre mí
           </h2>
@@ -47,8 +47,9 @@ export default function SobreMi() {
         </div>
       </div>
 
+
       {/* Educación */}
-      <section id="educacion" className="bg-gray-950 text-white mt-12 px-4 sm:px-6">
+      <section id="educacion" className="bg-gray-950 text-white mt-12  sm:px-6">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl sm:text-4xl font-bold bg-gradient-to-r from-sky-400 via-sky-500 to-sky-600 bg-clip-text text-transparent text-center ">
             Educación
@@ -102,7 +103,7 @@ export default function SobreMi() {
 
 
       {/* Habilidades técnicas y blandas */}
-      <section id="habilidades" className="bg-gray-950 text-white py-20 px-6">
+      <section id="habilidades" className="bg-gray-950 text-white py-20">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-bold bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600 bg-clip-text text-transparent text-center">
             Habilidades técnicas

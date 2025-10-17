@@ -1,6 +1,6 @@
 export default function Proyectos() {
   return (
-    <main className="bg-gray-950 min-h-screen flex flex-col justify-center items-center text-center px-6 pt-24">
+    <main className="bg-gray-950 min-h-screen flex flex-col justify-center items-center text-center px-6 ">
       {/* 🌟 Proyectos */}
       <section id="proyectos" className="bg-gray-950 text-white py-20 px-6">
         <div className="max-w-6xl mx-auto">
