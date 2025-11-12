@@ -39,7 +39,7 @@ export default function Certificaciones() {
                   Fundacion Pescar | Salesforce (06/2025 - Presente)
                 </p>
                 <p className="text-gray-400 mt-1">
-                  Aprendí mis primeros pasos en tecnología y desarrollo de software.
+                  Realicé desarrollo web e integración con CRM, creando objetos, flujos y relaciones.
                 </p>
                 {/* Botón que abre el modal */}
                 <button
@@ -70,7 +70,7 @@ export default function Certificaciones() {
                   Santander Open Academy (06/2025 - Presente)
                 </p>
                 <p className="text-gray-400 mt-1">
-                  Finalicé mis estudios secundarios con un enfoque en ciencias y matemáticas.
+                  Desarrollé aplicaciones web integrando frontend y backend con tecnologías Fullstack.
                 </p>
                 <button
                   onClick={() =>
@@ -101,11 +101,11 @@ export default function Certificaciones() {
                   Oracle Next Education (06/2025 - Presente)
                 </p>
                 <p className="text-gray-400 mt-1">
-                  Finalicé mis estudios secundarios con un enfoque en ciencias y matemáticas.
+                  Aprendí a crear la parte backend de aplicaciones usando Java.
                 </p>
                 <button
                   onClick={() =>
-                    abrirModal("https://drive.google.com/file/d/1vMbwBsO8_rm8_aq9zPl1iAPsim5SthMV/preview")
+                    abrirModal("https://drive.google.com/file/d/1ijD_UbJqquF_LXuaYDD-3daJem-5Ln3Q/preview")
                   }
                   className="inline-block mt-3 bg-sky-500 hover:bg-sky-600 text-white font-medium px-4 py-2 rounded-lg transition"
                 >
@@ -166,7 +166,7 @@ export default function Certificaciones() {
                   Media pila (03/2025 - 07/2025)
                 </p>
                 <p className="text-gray-400 mt-1">
-                  Finalicé mis estudios secundarios con un enfoque en ciencias y matemáticas.
+                  Aprendí a manipular el DOM y crear páginas web interactivas y dinámicas.
                 </p>
                 <button
                   onClick={() =>
@@ -196,11 +196,11 @@ export default function Certificaciones() {
                   Santander Open Academy (03/2025)
                 </p>
                 <p className="text-gray-400 mt-1">
-                  Finalicé mis estudios secundarios con un enfoque en ciencias y matemáticas.
+                  Aprendí a programar con Python, creando soluciones lógicas y automatizando tareas.
                 </p>
                 <button
                   onClick={() =>
-                    abrirModal("https://drive.google.com/file/d/1vMbwBsO8_rm8_aq9zPl1iAPsim5SthMV/preview")
+                    abrirModal("https://drive.google.com/file/d/12UMB9S3myAkQaYQTfA5ExKB03C0kNdkD/preview")
                   }
                   className="inline-block mt-3 bg-sky-500 hover:bg-sky-600 text-white font-medium px-4 py-2 rounded-lg transition"
                 >
@@ -226,7 +226,7 @@ export default function Certificaciones() {
                   Oracle Next Education (03/2022 - 12/2022)
                 </p>
                 <p className="text-gray-400 mt-1">
-                  Finalicé mis estudios secundarios con un enfoque en ciencias y matemáticas.
+                  Aprendí a desarrollar interfaces web modernas con HTML, CSS y JavaScript.
                 </p>
                 <button
                   onClick={() =>
@@ -256,7 +256,7 @@ export default function Certificaciones() {
                   Oracle Next Education (08/2021 - 01/2022)
                 </p>
                 <p className="text-gray-400 mt-1">
-                  Finalicé mis estudios secundarios con un enfoque en ciencias y matemáticas.
+                  Certificado que valida competencias en agilidad empresarial, liderazgo adaptativo y mejora continua.
                 </p>
                 <button
                   onClick={() =>
@@ -286,7 +286,7 @@ export default function Certificaciones() {
                   Oracle Next Education (08/2021 - 01/2022)
                 </p>
                 <p className="text-gray-400 mt-1">
-                  Finalicé mis estudios secundarios con un enfoque en ciencias y matemáticas.
+                  Certificado que acredita habilidades en autoconocimiento, propósito y crecimiento profesional continuo.
                 </p>
                 <button
                   onClick={() =>
