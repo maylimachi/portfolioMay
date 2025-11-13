@@ -116,7 +116,7 @@ export default function Proyectos() {
                 {/* Botón GitHub */}
                 <div className="mt-4">
                   <a
-                    href="https://github.com/tuusuario/color-game" // 🔹 tu link real
+                    href="https://github.com/maylimachi/color-game" // 🔹 tu link real
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-sky-500 hover:bg-sky-600 text-white font-medium px-4 py-2 rounded-lg flex items-center gap-2 w-fit transition"
@@ -158,7 +158,7 @@ export default function Proyectos() {
 
                 <div className="mt-4">
                   <a
-                    href="https://github.com/tuusuario/color-game" // 🔹 tu link real
+                    href="https://github.com/maylimachi/ToDoList" // 🔹 tu link real
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-sky-500 hover:bg-sky-600 text-white font-medium px-4 py-2 rounded-lg flex items-center gap-2 w-fit transition"
