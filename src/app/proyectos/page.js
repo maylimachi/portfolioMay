@@ -1,7 +1,7 @@
 export default function Proyectos() {
   return (
     <main className="bg-gray-950 min-h-screen flex flex-col justify-center items-center text-center px-6 ">
-      {/* 🌟 Proyectos */}
+
       <section id="proyectos" className="bg-gray-950 text-white py-20 px-6">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-bold bg-gradient-to-r from-sky-400 via-sky-500 to-sky-600 bg-clip-text text-transparent text-center mb-12">
@@ -9,7 +9,6 @@ export default function Proyectos() {
           </h2>
 
           <div className="space-y-10">
-            {/* 🧩 Proyecto 1 */}
             <div className="bg-gray-800/50 border border-white/20 rounded-xl p-6 shadow-lg flex flex-col md:flex-row items-center gap-6">
               <img
                 src="/puentesolidario.png"
@@ -25,7 +24,7 @@ export default function Proyectos() {
 
                 <div className="mt-4">
                   <a
-                    href="https://github.com/sergiosuarez5/puente-solidario" // 🔹 tu link real
+                    href="https://github.com/sergiosuarez5/puente-solidario" 
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-sky-500 hover:bg-sky-600 text-white font-medium px-4 py-2 rounded-lg flex items-center gap-2 w-fit transition"
@@ -51,7 +50,7 @@ export default function Proyectos() {
                 </div>
               </div>
             </div>
-            {/* 🧩 Proyecto 2*/}
+
             <div className="bg-gray-800/50 border border-white/20 rounded-xl p-6 shadow-lg flex flex-col md:flex-row items-center gap-6">
               <img
                 src="/muebles.png"
@@ -67,7 +66,7 @@ export default function Proyectos() {
 
                 <div className="mt-4">
                   <a
-                    href="https://github.com/fliutkevier/sprint-1y2-fullstackITBA" // 🔹 tu link real
+                    href="https://github.com/fliutkevier/sprint-1y2-fullstackITBA" 
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-sky-500 hover:bg-sky-600 text-white font-medium px-4 py-2 rounded-lg flex items-center gap-2 w-fit transition"
@@ -97,26 +96,22 @@ export default function Proyectos() {
               </div>
             </div>
 
-            {/* 🧩 Proyecto 1 */}
             <div className="bg-gray-800/50 border border-white/20 rounded-xl p-6 shadow-lg flex flex-col md:flex-row items-center gap-6">
-              {/* Imagen */}
               <img
-                src="/colorgame.png" // 🔹 reemplazá con tu imagen
+                src="/colorgame.png" 
                 alt="Color Game"
                 className="w-full md:w-60 h-40 object-cover rounded-xl border border-white/10"
               />
 
-              {/* Texto */}
               <div className="flex-1 text-left">
                 <h3 className="text-2xl font-semibold text-white">🎨 Color Game</h3>
                 <p className="text-gray-400 mt-2">
                   Un juego interactivo donde el jugador debe adivinar el color correcto basado en un código RGB. Desarrollado con JavaScript puro y manipulación del DOM.
                 </p>
 
-                {/* Botón GitHub */}
                 <div className="mt-4">
                   <a
-                    href="https://github.com/maylimachi/color-game" // 🔹 tu link real
+                    href="https://github.com/maylimachi/color-game" 
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-sky-500 hover:bg-sky-600 text-white font-medium px-4 py-2 rounded-lg flex items-center gap-2 w-fit transition"
@@ -133,7 +128,6 @@ export default function Proyectos() {
                   </a>
                 </div>
 
-                {/* Tecnologías */}
                 <div className="flex flex-wrap gap-2 mt-4">
                   <span className="bg-sky-900/40 text-sky-300 px-3 py-1 rounded-full text-sm font-medium">HTML</span>
                   <span className="bg-sky-900/40 text-sky-300 px-3 py-1 rounded-full text-sm font-medium">CSS</span>
@@ -142,7 +136,6 @@ export default function Proyectos() {
               </div>
             </div>
 
-            {/* 🧩 Proyecto 2 */}
             <div className="bg-gray-800/50 border border-white/20 rounded-xl p-6 shadow-lg flex flex-col md:flex-row items-center gap-6">
               <img
                 src="/todolist.png"
@@ -158,7 +151,7 @@ export default function Proyectos() {
 
                 <div className="mt-4">
                   <a
-                    href="https://github.com/maylimachi/ToDoList" // 🔹 tu link real
+                    href="https://github.com/maylimachi/ToDoList" 
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-sky-500 hover:bg-sky-600 text-white font-medium px-4 py-2 rounded-lg flex items-center gap-2 w-fit transition"
@@ -183,7 +176,6 @@ export default function Proyectos() {
               </div>
             </div>
 
-            {/* 🧩 Proyecto 3 */}
             <div className="bg-gray-800/50 border border-white/20 rounded-xl p-6 shadow-lg flex flex-col md:flex-row items-center gap-6">
               <img
                 src="/servicios.png"
@@ -199,7 +191,7 @@ export default function Proyectos() {
 
                 <div className="mt-4">
                   <a
-                    href="https://github.com/tuusuario/color-game" // 🔹 tu link real
+                    href="https://github.com/tuusuario/color-game"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-sky-500 hover:bg-sky-600 text-white font-medium px-4 py-2 rounded-lg flex items-center gap-2 w-fit transition"

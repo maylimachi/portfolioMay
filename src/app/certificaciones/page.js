@@ -22,7 +22,6 @@ export default function Certificaciones() {
         <div className="max-w-6xl mx-auto">
 
           <div className="space-y-8">
-            {/* Primer proyecto */}
             <div className="flex items-start gap-4 bg-gray-800/50 border border-white/20 rounded-xl p-6 shadow-lg">
               <div className="w-12 h-12 flex-shrink-0">
                 <img
@@ -36,15 +35,14 @@ export default function Certificaciones() {
                   Admin CRM
                 </h3>
                 <p className="text-sky-400 font-medium">
-                  Fundacion Pescar | Salesforce (06/2025 - Presente)
+                  Fundacion Pescar | Salesforce (06/2025 - 12/2025)
                 </p>
                 <p className="text-gray-400 mt-1">
-                  Realicé desarrollo web e integración con CRM, creando objetos, flujos y relaciones.
+                  Configuración y administración de Salesforce CRM, trabajando con objetos, flujos, permisos, relaciones y automatizaciones. Ademas de implementar una integración entre nuestra pagina web y Salesforce.
                 </p>
-                {/* Botón que abre el modal */}
                 <button
                   onClick={() =>
-                    abrirModal("https://drive.google.com/file/d/1I2SB5ydC-GKm3WY2P3i-NmKgghAwE0II/preview")
+                    abrirModal("https://drive.google.com/file/d/1H3IC7GNtu7-iK_FzA224DDmtQUvtt-nu/preview")
                   }
                   className="inline-block mt-3 bg-sky-500 hover:bg-sky-600 text-white font-medium px-4 py-2 rounded-lg transition"
                 >
@@ -53,7 +51,6 @@ export default function Certificaciones() {
               </div>
             </div>
 
-            {/* Segundo proyecto */}
             <div className="flex items-start gap-4 bg-gray-800/50 border border-white/20 rounded-xl p-6 shadow-lg">
               <div className="w-12 h-12 flex-shrink-0">
                 <img
@@ -67,14 +64,14 @@ export default function Certificaciones() {
                   Developer Web Full Stack
                 </h3>
                 <p className="text-sky-400 font-medium">
-                  Santander Open Academy (06/2025 - Presente)
+                  Santander Open Academy (06/2025 - 12/2025)
                 </p>
                 <p className="text-gray-400 mt-1">
-                  Desarrollé aplicaciones web integrando frontend y backend con tecnologías Fullstack.
+                  Desarrollo de aplicaciones web fullstack con el stack MERN (MongoDB, Express, React y Node.js), creando APIs REST y aplicaciones dinámicas.
                 </p>
                 <button
                   onClick={() =>
-                    abrirModal("https://drive.google.com/file/d/1vMbwBsO8_rm8_aq9zPl1iAPsim5SthMV/preview")
+                    abrirModal("https://drive.google.com/file/d/14NDdioJw9HcyNsNtSBlb4IzMIRHs29qc/preview")
                   }
                   className="inline-block mt-3 bg-sky-500 hover:bg-sky-600 text-white font-medium px-4 py-2 rounded-lg transition"
                 >
@@ -84,11 +81,10 @@ export default function Certificaciones() {
               </div>
             </div>
 
-            {/* Tercer proyecto */}
             <div className="flex items-start gap-4 bg-gray-800/50 border border-white/20 rounded-xl p-6 shadow-lg">
               <div className="w-12 h-12 flex-shrink-0">
                 <img
-                  src="/javalogo.png" // Cambiá esta ruta por la tuya, por ejemplo: "/images/talento-tech-logo.png"
+                  src="/javalogo.png" 
                   alt="Logo del curso"
                   className="w-full h-full object-contain rounded-md"
                 />
@@ -98,10 +94,10 @@ export default function Certificaciones() {
                   Backend Developer con Java
                 </h3>
                 <p className="text-sky-400 font-medium">
-                  Oracle Next Education (06/2025 - Presente)
+                  Oracle Next Education (06/2025 - 03/2026)
                 </p>
                 <p className="text-gray-400 mt-1">
-                  Aprendí a crear la parte backend de aplicaciones usando Java.
+                  Desarrollo backend con Java, aplicando POO, manejo de datos y creación de servicios backend.
                 </p>
                 <button
                   onClick={() =>
@@ -114,18 +110,15 @@ export default function Certificaciones() {
               </div>
             </div>
 
-            {/* Cuarto proyecto */}
             <div className="flex items-start gap-4 bg-gray-800/50 border border-white/20 rounded-xl p-6 shadow-lg">
-              {/* Logo subido por vos */}
               <div className="w-12 h-12 flex-shrink-0">
                 <img
-                  src="/node.png" // Cambiá esta ruta por la tuya, por ejemplo: "/images/talento-tech-logo.png"
+                  src="/node.png"
                   alt="Logo del curso"
                   className="w-full h-full object-contain rounded-md"
                 />
               </div>
 
-              {/* Texto */}
               <div className="text-left flex-1">
                 <h3 className="text-white font-semibold text-xl">
                   Backend Developer con Node.js
@@ -134,13 +127,11 @@ export default function Certificaciones() {
                   Talento Tech (06/2025 - Presente)
                 </p>
                 <p className="text-gray-400 mt-1">
-                  Aprendí sobre desarrollo backend, APIs REST y conexión con bases de datos.
+                  Desarrollo backend con Node.js, profundizando en la lógica del servidor, creación de APIs REST, manejo de rutas, controladores y estructura de proyectos.
                 </p>
-
-                {/* Botón Ver Certificación */}
                 <button
                   onClick={() =>
-                    abrirModal("https://drive.google.com/file/d/1vMbwBsO8_rm8_aq9zPl1iAPsim5SthMV/preview")
+                    abrirModal("https://drive.google.com/file/d/1xtUYyO0d_mgMiPqFfkKFrfRS5SkbrsGc/preview")
                   }
                   className="inline-block mt-3 bg-sky-500 hover:bg-sky-600 text-white font-medium px-4 py-2 rounded-lg transition"
                 >
@@ -149,11 +140,10 @@ export default function Certificaciones() {
               </div>
             </div>
 
-            {/* Quinto proyecto */}
             <div className="flex items-start gap-4 bg-gray-800/50 border border-white/20 rounded-xl p-6 shadow-lg">
               <div className="w-12 h-12 flex-shrink-0">
                 <img
-                  src="/front.png" // Cambiá esta ruta por la tuya, por ejemplo: "/images/talento-tech-logo.png"
+                  src="/front.png" 
                   alt="Logo del curso"
                   className="w-full h-full object-contain rounded-md"
                 />
@@ -166,7 +156,7 @@ export default function Certificaciones() {
                   Media pila (03/2025 - 07/2025)
                 </p>
                 <p className="text-gray-400 mt-1">
-                  Aprendí a manipular el DOM y crear páginas web interactivas y dinámicas.
+                  Desarrollo frontend con HTML, CSS y JavaScript, trabajando con el DOM, manejo de eventos, asincronía y creación de interfaces interactivas.
                 </p>
                 <button
                   onClick={() =>
@@ -179,11 +169,10 @@ export default function Certificaciones() {
               </div>
             </div>
 
-            {/* Sexto proyecto */}
             <div className="flex items-start gap-4 bg-gray-800/50 border border-white/20 rounded-xl p-6 shadow-lg">
               <div className="w-12 h-12 flex-shrink-0">
                 <img
-                  src="/python.png" // Cambiá esta ruta por la tuya, por ejemplo: "/images/talento-tech-logo.png"
+                  src="/python.png"
                   alt="Logo del curso"
                   className="w-full h-full object-contain rounded-md"
                 />
@@ -209,11 +198,10 @@ export default function Certificaciones() {
               </div>
             </div>
 
-            {/* Septimo proyecto */}
             <div className="flex items-start gap-4 bg-gray-800/50 border border-white/20 rounded-xl p-6 shadow-lg">
               <div className="w-12 h-12 flex-shrink-0">
                 <img
-                  src="/frontend.png" // Cambiá esta ruta por la tuya, por ejemplo: "/images/talento-tech-logo.png"
+                  src="/frontend.png"
                   alt="Logo del curso"
                   className="w-full h-full object-contain rounded-md"
                 />
@@ -239,11 +227,10 @@ export default function Certificaciones() {
               </div>
             </div>
 
-            {/* Octavo proyecto */}
             <div className="flex items-start gap-4 bg-gray-800/50 border border-white/20 rounded-xl p-6 shadow-lg">
               <div className="w-12 h-12 flex-shrink-0">
                 <img
-                  src="/busi.png" // Cambiá esta ruta por la tuya, por ejemplo: "/images/talento-tech-logo.png"
+                  src="/busi.png"
                   alt="Logo del curso"
                   className="w-full h-full object-contain rounded-md"
                 />
@@ -269,11 +256,10 @@ export default function Certificaciones() {
               </div>
             </div>
 
-            {/* Noveno proyecto */}
             <div className="flex items-start gap-4 bg-gray-800/50 border border-white/20 rounded-xl p-6 shadow-lg">
               <div className="w-12 h-12 flex-shrink-0">
                 <img
-                  src="/dp.png" // Cambiá esta ruta por la tuya, por ejemplo: "/images/talento-tech-logo.png"
+                  src="/dp.png"
                   alt="Logo del curso"
                   className="w-full h-full object-contain rounded-md"
                 />
@@ -299,7 +285,6 @@ export default function Certificaciones() {
               </div>
             </div>
 
-            {/* Modal reutilizable */}
             {mostrarModal && (
               <div
                 className="fixed inset-0 bg-black/70 flex items-center justify-center z-50"

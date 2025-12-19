@@ -12,10 +12,8 @@ export default function Navbar() {
   return (
     <nav className="fixed w-full top-0 z-50 bg-gray-950 shadow-lg">
       <div className="flex justify-between items-center px-6 sm:px-8 py-4">
-        {/* Logo */}
         <div className="text-2xl font-bold text-blue-600">ML</div>
 
-        {/* Botón menú móvil */}
         <button
           onClick={toggleMenu}
           className="text-gray-300 md:hidden focus:outline-none"
@@ -24,7 +22,6 @@ export default function Navbar() {
           {isOpen ? <X size={28} /> : <Menu size={28} />}
         </button>
 
-        {/* Links - Desktop */}
         <ul className="hidden md:flex space-x-6 text-gray-300 font-medium">
           <li><Link href="/" className="hover:text-blue-500 transition-colors">Inicio</Link></li>
           <li><Link href="/sobremi" className="hover:text-blue-500 transition-colors">Sobre mí</Link></li>
@@ -34,7 +31,6 @@ export default function Navbar() {
         </ul>
       </div>
 
-      {/* Menú móvil tipo drawer */}
       <div
         className={`md:hidden fixed top-0 left-0 h-full bg-gray-900 transform ${
           isOpen ? 'translate-x-0' : '-translate-x-full'

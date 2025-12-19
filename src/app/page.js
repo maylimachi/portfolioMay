@@ -17,7 +17,7 @@ export default function Home() {
 
   return (
     <main className="bg-gray-950 flex-1 flex flex-col justify-center items-center text-center px-6 h-screen">
-      {/* HERO SECTION */}
+
       <section className="flex flex-col justify-center items-center text-center">
         <p className="text-lg font-medium mb-2 bg-blue-800 bg-opacity-30 px-4 py-2 rounded-full inline-block">
           👋 Bienvenido a mi portfolio
@@ -54,7 +54,6 @@ export default function Home() {
           </a>
         </div>
 
-        {/* Modal */}
         {mostrarModal && (
           <div
             className="fixed inset-0 bg-black/70 flex items-center justify-center z-50"

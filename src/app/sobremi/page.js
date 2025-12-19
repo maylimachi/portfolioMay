@@ -5,16 +5,15 @@ export default function SobreMi() {
       id="sobremi"
       className="bg-gray-950 text-white py-20 px-6"
     >
-      {/* Título principal */}
+
       <div className="text-center mb-12">
         <h1 className="text-5xl font-bold bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600 bg-clip-text text-transparent mb-4">
           Quién soy
         </h1>
       </div>
 
-      {/* Contenido: Imagen y cuadro de texto */}
       <div className="max-w-6xl mx-auto flex flex-col lg:flex-row items-center lg:items-start gap-8 lg:gap-12sm:px-4">
-        {/* Imagen */}
+
         <div className="flex-shrink-0 mb-6 lg:mb-0 lg:self-center">
           <img
             src="/fotoMay.jpg"
@@ -23,7 +22,6 @@ export default function SobreMi() {
           />
         </div>
 
-        {/* Cuadro de texto */}
         <div className="flex-1 w-full max-w-full sm:max-w-2xl lg:max-w-3xl bg-gray-800/50 border border-white/20 p-4 sm:p-6 rounded-xl shadow-lg backdrop-blur-sm mx-2 sm:mx-auto">
           <h2 className="text-base sm:text-lg md:text-2xl font-semibold mb-3 sm:mb-4 text-blue-400">
             Sobre mí
@@ -47,23 +45,19 @@ export default function SobreMi() {
         </div>
       </div>
 
-
-      {/* Educación */}
       <section id="educacion" className="bg-gray-950 text-white mt-12  sm:px-6">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl sm:text-4xl font-bold bg-gradient-to-r from-sky-400 via-sky-500 to-sky-600 bg-clip-text text-transparent text-center ">
+          <h2 className="text-3xl sm:text-4xl font-bold bg-gradient-to-r from-sky-400 via-sky-500 to-sky-600 bg-clip-text text-transparent text-center mb-3">
             Educación
           </h2>
 
           <div className="space-y-6 sm:space-y-8">
-            {/* Primera entrada */}
+
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-3 sm:gap-4 bg-gray-800/50 border border-white/20 rounded-xl p-4 sm:p-6 shadow-lg">
-              {/* Icono de graduación */}
               <div className="text-sky-400 text-3xl sm:text-4xl mt-0 sm:mt-1 flex-shrink-0">
                 🎓
               </div>
 
-              {/* Texto */}
               <div className="text-left">
                 <h3 className="text-white font-semibold text-lg sm:text-xl">
                   Licenciatura en Analista de Sistemas
@@ -77,14 +71,11 @@ export default function SobreMi() {
               </div>
             </div>
 
-            {/* Segunda entrada */}
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-3 sm:gap-4 bg-gray-800/50 border border-white/20 rounded-xl p-4 sm:p-6 shadow-lg">
-              {/* Icono de graduación */}
               <div className="text-sky-400 text-3xl sm:text-4xl mt-0 sm:mt-1 flex-shrink-0">
                 🎓
               </div>
 
-              {/* Texto */}
               <div className="text-left">
                 <h3 className="text-white font-semibold text-lg sm:text-xl">
                   Secundario completo
@@ -101,8 +92,6 @@ export default function SobreMi() {
         </div>
       </section>
 
-
-      {/* Habilidades técnicas y blandas */}
       <section id="habilidades" className="bg-gray-950 text-white py-20">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-bold bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600 bg-clip-text text-transparent text-center">
@@ -110,7 +99,6 @@ export default function SobreMi() {
           </h2>
 
           <div className="space-y-6">
-            {/* HTML */}
             <div>
               <div className="flex justify-between mb-1">
                 <span>HTML</span>
@@ -121,7 +109,6 @@ export default function SobreMi() {
               </div>
             </div>
 
-            {/* CSS */}
             <div>
               <div className="flex justify-between mb-1">
                 <span>CSS</span>
@@ -132,7 +119,6 @@ export default function SobreMi() {
               </div>
             </div>
 
-            {/* JavaScript */}
             <div>
               <div className="flex justify-between mb-1">
                 <span>JavaScript</span>
@@ -143,10 +129,29 @@ export default function SobreMi() {
               </div>
             </div>
 
-            {/* React */}
             <div>
               <div className="flex justify-between mb-1">
                 <span>React</span>
+                <span>80%</span>
+              </div>
+              <div className="w-full bg-gray-700 rounded-full h-4">
+                <div className="bg-blue-500 h-4 rounded-full w-[80%]"></div>
+              </div>
+            </div>
+
+            <div>
+              <div className="flex justify-between mb-1">
+                <span>Node.js</span>
+                <span>80%</span>
+              </div>
+              <div className="w-full bg-gray-700 rounded-full h-4">
+                <div className="bg-blue-500 h-4 rounded-full w-[80%]"></div>
+              </div>
+            </div>
+
+            <div>
+              <div className="flex justify-between mb-1">
+                <span>MongoDB</span>
                 <span>70%</span>
               </div>
               <div className="w-full bg-gray-700 rounded-full h-4">
@@ -154,29 +159,6 @@ export default function SobreMi() {
               </div>
             </div>
 
-            {/* Node.js */}
-            <div>
-              <div className="flex justify-between mb-1">
-                <span>Node.js</span>
-                <span>60%</span>
-              </div>
-              <div className="w-full bg-gray-700 rounded-full h-4">
-                <div className="bg-blue-500 h-4 rounded-full w-[60%]"></div>
-              </div>
-            </div>
-
-            {/* MongoDB */}
-            <div>
-              <div className="flex justify-between mb-1">
-                <span>MongoDB</span>
-                <span>60%</span>
-              </div>
-              <div className="w-full bg-gray-700 rounded-full h-4">
-                <div className="bg-blue-500 h-4 rounded-full w-[60%]"></div>
-              </div>
-            </div>
-
-            {/* Python */}
             <div>
               <div className="flex justify-between mb-1">
                 <span>Python</span>
@@ -187,19 +169,17 @@ export default function SobreMi() {
               </div>
             </div>
 
-            {/* Java */}
             <div>
               <div className="flex justify-between mb-1">
                 <span>Java</span>
-                <span>60%</span>
+                <span>70%</span>
               </div>
               <div className="w-full bg-gray-700 rounded-full h-4">
-                <div className="bg-blue-500 h-4 rounded-full w-[60%]"></div>
+                <div className="bg-blue-500 h-4 rounded-full w-[70%]"></div>
               </div>
             </div>
           </div>
 
-          {/* Habilidades blandas */}
           <section id="habilidades-blandas" className="bg-gray-950 text-white mt-20">
             <div className="max-w-6xl mx-auto">
               <h2 className="text-4xl font-bold bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 bg-clip-text text-transparent text-center">
@@ -207,7 +187,7 @@ export default function SobreMi() {
               </h2>
 
               <div className="space-y-6">
-                {/* Comunicación */}
+
                 <div>
                   <div className="flex justify-between mb-1">
                     <span>Comunicación</span>
@@ -218,7 +198,6 @@ export default function SobreMi() {
                   </div>
                 </div>
 
-                {/* Trabajo en equipo */}
                 <div>
                   <div className="flex justify-between mb-1">
                     <span>Trabajo en equipo</span>
@@ -229,7 +208,6 @@ export default function SobreMi() {
                   </div>
                 </div>
 
-                {/* Gestion de tiempo */}
                 <div>
                   <div className="flex justify-between mb-1">
                     <span>Gestion de tiempo</span>
@@ -240,7 +218,6 @@ export default function SobreMi() {
                   </div>
                 </div>
 
-                {/* Resolución de problemas */}
                 <div>
                   <div className="flex justify-between mb-1">
                     <span>Resolución de problemas</span>
@@ -251,7 +228,6 @@ export default function SobreMi() {
                   </div>
                 </div>
 
-                {/* Creatividad */}
                 <div>
                   <div className="flex justify-between mb-1">
                     <span>Resiliencia</span>
@@ -264,8 +240,6 @@ export default function SobreMi() {
               </div>
             </div>
           </section>
-
-          
 
         </div>
       </section>
