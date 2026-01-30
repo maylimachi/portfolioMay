@@ -38,7 +38,9 @@ export default function Home() {
         <div className="flex space-x-4">
           <button
             onClick={() =>
-              abrirModal("https://drive.google.com/file/d/1kkO1n1-klHjKdFFcRjakp4fLCoEsrPGe/preview")
+              abrirModal(
+                "https://drive.google.com/file/d/1-wZ8kYHshIsUWgSYl6RepecanjxaUmgp/preview"
+              )
             }
             className="inline-block bg-sky-500 hover:bg-sky-600 text-white font-medium px-6 py-3 rounded-full transition"
           >
@@ -46,13 +48,14 @@ export default function Home() {
           </button>
 
           <a
-            href="https://drive.google.com/uc?export=download&id=1kkO1n1-klHjKdFFcRjakp4fLCoEsrPGe"
+            href="https://drive.google.com/uc?export=download&id=1-wZ8kYHshIsUWgSYl6RepecanjxaUmgp"
             download="CV_Mayra_Limachi.pdf"
             className="border border-blue-600 text-blue-600 px-6 py-3 rounded-full hover:bg-blue-50 transition"
           >
             Descargar CV
           </a>
         </div>
+
 
         {mostrarModal && (
           <div
